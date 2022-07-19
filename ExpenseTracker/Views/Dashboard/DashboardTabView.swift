@@ -55,6 +55,9 @@ struct DashboardTabView: View {
                     .multilineTextAlignment(.center)
                     .font(.headline)
                     .padding(.horizontal)
+                Text("Version: 0.1.5\nDeveloped by Avdullai Enea")
+                    .padding()
+                    .multilineTextAlignment(.center)
             }
         }
         .padding(.top)
